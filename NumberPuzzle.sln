@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{2B0DB309-6BC7-DEC6-BD47-F380E00CCBA1}") = "NumberPuzzle", "Assembly-CSharp.csproj", "{38FC3394-7CE3-8CD0-6941-6041D81DB522}"
 EndProject
-Project("{2B0DB309-6BC7-DEC6-BD47-F380E00CCBA1}") = "NumberPuzzle", "Assembly-CSharp-Editor.csproj", "{1E853911-7504-1D38-3837-CABEC6CAE154}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,10 +13,6 @@ Global
 		{38FC3394-7CE3-8CD0-6941-6041D81DB522}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38FC3394-7CE3-8CD0-6941-6041D81DB522}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38FC3394-7CE3-8CD0-6941-6041D81DB522}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1E853911-7504-1D38-3837-CABEC6CAE154}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1E853911-7504-1D38-3837-CABEC6CAE154}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1E853911-7504-1D38-3837-CABEC6CAE154}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1E853911-7504-1D38-3837-CABEC6CAE154}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

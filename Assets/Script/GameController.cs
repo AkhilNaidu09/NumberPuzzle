@@ -72,7 +72,7 @@ public class GameController : MonoBehaviour {
 	void Update () {
 		if (startControl) {
 			startControl = false;
-			if (countStep > 1) {
+			if (countStep >= 1) {
 				if (imageOfPictureMatrix [row, col].name.CompareTo ("blank") != 0) { // Check if position touch is image not image blank
 					if (rowBlank != row && colBlank == col) {
 						if (Mathf.Abs (row - rowBlank) == 1) { //  move 1 cell
