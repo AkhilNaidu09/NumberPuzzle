@@ -162,10 +162,10 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
  <Reference Include="SimpleSQL_Editor">
- <HintPath>G:/Unity/NumberPuzzle/Assets/SimpleSQL/Editor/SimpleSQL_Editor.dll</HintPath>
+ <HintPath>G:/New folder/NumberPuzzle/Assets/SimpleSQL/Editor/SimpleSQL_Editor.dll</HintPath>
  </Reference>
  <Reference Include="SimpleSQL_Runtime">
- <HintPath>G:/Unity/NumberPuzzle/Assets/SimpleSQL/Plugins/SimpleSQL_Runtime.dll</HintPath>
+ <HintPath>G:/New folder/NumberPuzzle/Assets/SimpleSQL/Plugins/SimpleSQL_Runtime.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
