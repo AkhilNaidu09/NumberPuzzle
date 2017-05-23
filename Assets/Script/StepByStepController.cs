@@ -24,5 +24,6 @@ public class StepByStepController : MonoBehaviour {
 		gameMN.col = col;
 		gameMN.row = row;
 		gameMN.startControl = true;
+
 	}
 }

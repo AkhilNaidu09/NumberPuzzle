@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class GameController : MonoBehaviour {
-
+	
 	public int row,col,countStep;
 	public int level;
 	public int sizeRow,sizeCol;
@@ -70,6 +70,7 @@ public class GameController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
 		if (startControl) {
 			startControl = false;
 			if (countStep >= 1) {
@@ -102,6 +103,7 @@ public class GameController : MonoBehaviour {
 		}
 	}
 
+
 	void FixedUpdate(){
 		if (checkComplete) {
 			checkComplete = false;
@@ -116,11 +118,16 @@ public class GameController : MonoBehaviour {
 			}
 			if (countComplete == checkPointList.Count) {
 				gameIsComplete = true;
-				Debug.Log ("Game is completed");
+				GameOver ();
 			} else {
 				countComplete = 0;
 			}
 		}
+	}
+
+	void GameOver (){
+		Debug.Log ("Game is completed");
+		//Application.LoadLevel ("GameOver");
 	}
 
 	void SortImage(){
