@@ -20,13 +20,15 @@ public class GameController : MonoBehaviour {
 	public List<GameObject> imageOfPictureList;
 	public List<GameObject> checkPointList;
 
+	public AudioSource clickAudio;
+
 	GameObject[,] imageKeyMatrix;
 	GameObject[,] imageOfPictureMatrix;
 	GameObject[,] checkPointMatrix;
 
 	// Use this for initialization
 	void Start () {
-
+		clickAudio = GetComponent<AudioSource>();
 		imageKeyMatrix = new GameObject[sizeRow, sizeCol];
 		imageOfPictureMatrix = new GameObject[sizeRow, sizeCol];
 		checkPointMatrix = new GameObject[sizeRow, sizeCol];
@@ -150,6 +152,7 @@ public class GameController : MonoBehaviour {
 
 		rowBlank = row; // position  touch
 		colBlank = col;
+		clickAudio.Play ();
 	}
 
 	void ImageOfEasyLevel(){
