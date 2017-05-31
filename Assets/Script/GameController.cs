@@ -12,7 +12,7 @@ public class GameController : MonoBehaviour {
 	int countImageKey = 0;
 	GameObject temp;
 	int countComplete = 0;
-	public bool startControl=false;
+	public bool startControl = false;
 	public bool checkComplete;
 	public bool gameIsComplete;
 
@@ -21,6 +21,8 @@ public class GameController : MonoBehaviour {
 	public List<GameObject> checkPointList;
 
 	public AudioSource clickAudio;
+	public bool mute = true;
+
 
 	GameObject[,] imageKeyMatrix;
 	GameObject[,] imageOfPictureMatrix;
@@ -152,7 +154,12 @@ public class GameController : MonoBehaviour {
 
 		rowBlank = row; // position  touch
 		colBlank = col;
-		clickAudio.Play ();
+
+		if (mute) {
+			clickAudio.Play ();
+		} else {
+			clickAudio.Pause ();
+		}
 	}
 
 	void ImageOfEasyLevel(){
